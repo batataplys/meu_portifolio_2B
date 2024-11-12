@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+:root {
+    --cor-principal: rgb(99, 26, 114);
+    --cor-secundaria: rgb(86, 100, 94);
+    --cor-destaque: #4269f5;
+}
+
+body {
+    font-family: 'Geist Mono', sans-serif;
+}
+
+h1,h2,h5 {
+    color: var(--cor-secundaria);
+    font-weight: 200;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+    color: var(--cor-destaque)
+}
