@@ -87,7 +87,12 @@
             toogleButton.addEventListener('click', function() {
                 body.classList.toogle('dark-mode');
 
-                
+                if (body.classList.contains('dark-mode')) [
+                        toogleButton.textContent = 'Modo Claro';
+                }else {
+                    toogleButton.textContent = 'Modo Escuro';
+                }
+            });
         </script>
     </body>
   </html>
